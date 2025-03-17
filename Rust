@@ -1,0 +1,10 @@
+fn main() {
+    
+    let _size = 5;
+    let arr = Box::new([1, 2, 3, 4, 5]);
+
+    for &num in arr.iter() {
+        println!("{}", num);
+    } 
+
+}
